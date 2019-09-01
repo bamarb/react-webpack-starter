@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "amar.bapu@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bamarb/react-webpack-starter.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/bamarb/react-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/bamarb/react-webpack-starter#readme"
 }
