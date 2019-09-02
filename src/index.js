@@ -1,4 +1,5 @@
-import {greeting, greeter} from './greet'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
-console.log(greeting)
-console.log(greeter('Amar'))
+ReactDOM.render(<App/>,document.getElementById('app'))
