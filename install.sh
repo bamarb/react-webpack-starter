@@ -18,3 +18,5 @@ npm i -S react react-dom prop-types
 npm i -D html-webpack-plugin
 
 npm i -D webpack-merge
+
+npm i -D webpack-dev-server
