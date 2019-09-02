@@ -4,6 +4,7 @@
   "description": "A react boilerplate",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "amar.bapu@gmail.com",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/bamarb/react-webpack-starter/issues"
   },
-  "homepage": "https://github.com/bamarb/react-webpack-starter#readme"
+  "homepage": "https://github.com/bamarb/react-webpack-starter#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
 }
