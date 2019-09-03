@@ -20,3 +20,5 @@ npm i -D html-webpack-plugin
 npm i -D webpack-merge
 
 npm i -D webpack-dev-server
+
+npm i -D css-loader style-loader
