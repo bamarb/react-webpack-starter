@@ -22,3 +22,6 @@ npm i -D webpack-merge
 npm i -D webpack-dev-server
 
 npm i -D css-loader style-loader
+
+# Svg loader to allow svg files to be imported into js and react
+npm i -D @svgr/webpack
