@@ -10,6 +10,8 @@ npm i -D babel-loader
 
 npm i -D @babel/preset-react
 
+npm i -S @babel/polyfill
+
 #react 
 npm i -S react react-dom prop-types
 
@@ -25,3 +27,7 @@ npm i -D css-loader style-loader
 
 # Svg loader to allow svg files to be imported into js and react
 npm i -D @svgr/webpack
+
+npm i -D webpack-bundle-analyzer
+
+npm i -S @babel/polyfill
