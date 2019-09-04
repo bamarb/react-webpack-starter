@@ -12,6 +12,11 @@ npm i -D @babel/preset-react
 
 npm i -S @babel/polyfill
 
+npm i -D @babel/plugin-proposal-class-properties
+
+npm i -D @babel/plugin-syntax-dynamic-import
+
+npm i -S @babel/polyfill
 #react 
 npm i -S react react-dom prop-types
 
@@ -29,5 +34,3 @@ npm i -D css-loader style-loader
 npm i -D @svgr/webpack
 
 npm i -D webpack-bundle-analyzer
-
-npm i -S @babel/polyfill

@@ -25,7 +25,10 @@ module.exports = {
                         corejs: 2,
                         useBuiltIns: 'entry'
                     }], '@babel/preset-react'],
-                    plugins: ['@babel/plugin-proposal-class-properties']
+                    plugins: [
+                        '@babel/plugin-proposal-class-properties',
+                        '@babel/plugin-syntax-dynamic-import'
+                    ]
                 }
             },
             {
