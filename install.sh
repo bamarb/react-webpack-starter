@@ -3,7 +3,7 @@
 #npm install --save-dev webpack webpack-cli
 npm i -D webpack webpack-cli
 
-#babel 
+#babel
 npm i -D @babel/core @babel/cli @babel/preset-env
 
 npm i -D babel-loader
@@ -17,7 +17,7 @@ npm i -D @babel/plugin-proposal-class-properties
 npm i -D @babel/plugin-syntax-dynamic-import
 
 npm i -S @babel/polyfill
-#react 
+#react
 npm i -S react react-dom prop-types
 
 
@@ -34,3 +34,10 @@ npm i -D css-loader style-loader
 npm i -D @svgr/webpack
 
 npm i -D webpack-bundle-analyzer
+
+# Testing
+
+npm i -D jest babel-jest jest-environment-jsdom-fourteen
+npm i -D react-testing-library
+npm i -D @testing-library/jest-dom
+npm i -D jest-watch-typeahead
