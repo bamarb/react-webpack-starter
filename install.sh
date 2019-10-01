@@ -41,3 +41,7 @@ npm i -D jest babel-jest jest-environment-jsdom-fourteen
 npm i -D react-testing-library
 npm i -D @testing-library/jest-dom
 npm i -D jest-watch-typeahead
+
+npm i prettier pretty-quick husky  -D
+# Prettyfy
+npx prettier --write "**/*.js"
