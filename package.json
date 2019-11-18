@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./"
   },
   "author": "amar.bapu@gmail.com",
   "license": "ISC",
@@ -29,9 +30,12 @@
     "@svgr/webpack": "^4.3.3",
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.2.0",
+    "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.15.0",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.7",
     "identity-obj-proxy": "^3.0.0",
